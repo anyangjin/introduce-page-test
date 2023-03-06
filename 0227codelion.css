@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-width: fit-content;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #282828;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  font-size: 12px;
+  color: #919191;
+}
+
+.mainbox {
+  border: 3px solid #ebebeb;
+  /* //두께 방식 색깔 순 */
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 1px 10px 0px rgb(0, 0, 0, 0.1);
+  /* // 그림자 코드 숫자 의미 순서: 
+  첫번쨰 :가로축 양수 우측으로 뻗고 음수 죄측으로 뻗음
+  두번쨰 : y축
+  세번쨰 : 블러 값 
+  네번쨰 : 퍼짐 정도
+  rgba : 레드값 그린값 블루값 세가지 색 기반으로 표시 마지막은 투명도 0.1 ~ 1.0
+  */
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.name-text {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+.about-me-text {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.title-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+  /* text-align: left;하면 옆에 날짜와 정렬이 안맞아서 float 사용!
+} */
+}
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+.float-wrap {
+  overflow: hidden;
+  /* overflow는 float 띄어진 요소들을 묶어주고 다음에 오는 html 요소들이 영향이 받지 않도록 해줌 */
+}
+
+.desc-text {
+  font-size: 9px;
+}
+
+.desc-subtext {
+  font-size: 9px;
+  color: #282828;
+  padding-left: 16px;
+  /* 들여쓰기한것처럼 */
+}
+.title-box {
+  text-align: right;
+}
+
+.sns-img {
+  width: 20px;
+  height: 20px;
+}
+
+.sns-wrap {
+  text-align: right;
+  
+}
